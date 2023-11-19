@@ -1,0 +1,15 @@
+.nav-item{
+    margin: 1.5rem 0;
+    display: flex;
+    gap: 1rem;
+}
+
+p{
+    padding-top: 2px;
+    font-size: 18px;
+    font-weight: 500;
+}
+
+.last1{
+    color: rgba(0, 0, 0, 0.4)
+}

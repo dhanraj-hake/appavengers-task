@@ -1,0 +1,26 @@
+<div class="nav-item">
+    <div class="home">
+        <a style="color: black;" routerLink="/">
+            <i class="fa-solid fa-house fa-xl"></i>
+        </a>
+    </div>
+    
+    <p>
+        /
+    </p>
+    
+    <p>
+        ...
+    </p>
+    
+    
+    <div *ngFor ="let url of linksList; let last = last" style="display: flex; gap: 1rem;">
+        
+        <p>/</p>
+        <p [ngClass]="{'last1' : last==true}">{{url}}</p>
+    </div>
+
+
+
+
+</div>

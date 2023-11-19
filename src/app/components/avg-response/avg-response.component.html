@@ -1,0 +1,11 @@
+<h1>Average response time of test suites</h1>
+
+<ul>
+    <li *ngFor="let item of data;">
+        <div class="left">
+            <i class="fa-regular fa-folder fa-2xl"></i>
+        <p>{{item.name}}</p>
+        </div>
+        <p class="ms">{{item.ms}}ms</p>
+    </li>
+</ul>
